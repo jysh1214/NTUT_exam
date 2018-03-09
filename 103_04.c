@@ -85,6 +85,6 @@ int main(int argc, char *argv[]){
     test04(array, 5);
     test05(&array[0], &array[1], &array[2]);
     test06(s, 5);
-    printf("Problem 4-7: %id\n", test07(5));        // Problem 4-7
+    printf("Problem 4-7: %d\n", test07(5));        // Problem 4-7
     return 0;
 }
