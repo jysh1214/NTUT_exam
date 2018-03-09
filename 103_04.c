@@ -75,16 +75,16 @@ int test07(int n){
 
 int main(int argc, char *argv[]){
     int a = 9, b = 5, c = 3, array[] = {1,2,3,4,5};
-    /*
+    
     char *s[] = {"happy", "birthday", "new year",
                  "memorial day", "festival"};
-    */
+    
     test01(a, b, c);
     test02(a, b);
     test03(array, 3);
     test04(array, 5);
     test05(&array[0], &array[1], &array[2]);
-    //test06(s, 5);
+    test06(s, 5);
     printf("Problem 4-7: %id\n", test07(5));        // Problem 4-7
     return 0;
 }
